@@ -1,66 +1,46 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+PACKT_Assessment
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+FullStack Assessment in bootstrap and laravel  where admin can add , delete and update Books and its information related to books and can also search books based on its name,description,author,genre,isbn. here user have to register itself and then he can login and then  only can navigate inside the website.
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Installation=
+Download the zip file from git hub inside(laravel_packt) unzip it and open it on vs code after that do all the installations=
+:IN LARAVEL FOLDER= 
+1)install php
+2)install composer = Download and run Composer-Setup.exe
+3)install laravel = composer create-project laravel/laravel
+4)in your .env file change the database name to packt_task
+5)for login and registration = composer require laravel/breeze
+6)php artisan breeze:install
+7)npm install
+8)npm run dev
+9)to enable searching = composer require laravel/scout,php artisan vendor:publish --provider="Laravel\Scout\ScoutServiceProvider"
+5)in the terminal run = php artisan serve and open the localhost on browser and start the apache and mysql server
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+:you will see like this after all the installation on browser(all line wise screen shots as an user point of view)
+![Screenshot (219)](https://github.com/PrathamSharma11/laravel_packt/assets/78479210/9e77d8d4-26ef-424a-951f-88bebee3b519)
+![Screenshot (209)](https://github.com/PrathamSharma11/laravel_packt/assets/78479210/642b8fbc-f54a-4fec-9757-c782788789d3)
+![Screenshot (210)](https://github.com/PrathamSharma11/laravel_packt/assets/78479210/77fd07da-3e4b-4ec3-a1eb-0195b18bb082)
+![Screenshot (211)](https://github.com/PrathamSharma11/laravel_packt/assets/78479210/050ad5fe-abf4-4ecd-994f-e5af08639506)
+![Screenshot (212)](https://github.com/PrathamSharma11/laravel_packt/assets/78479210/43ee2318-4d05-4cc9-9e9f-c194b98a7f70)
+![Screenshot (213)](https://github.com/PrathamSharma11/laravel_packt/assets/78479210/f9b1a3e5-d682-4f96-a8fa-9592d2059405)
+![Screenshot (214)](https://github.com/PrathamSharma11/laravel_packt/assets/78479210/9d7f6786-fb0e-44f8-859e-6c44c72c7913)
+![Screenshot (215)](https://github.com/PrathamSharma11/laravel_packt/assets/78479210/aa46a566-9fbc-4f30-8584-3c1680728d82)
+![Screenshot (216)](https://github.com/PrathamSharma11/laravel_packt/assets/78479210/2872b6e5-81c6-4d16-80e8-2250fc0f107b)
+![Screenshot (217)](https://github.com/PrathamSharma11/laravel_packt/assets/78479210/83dc48cd-8970-4aa2-8ecd-01baf9691cb7)
+![Screenshot (218)](https://github.com/PrathamSharma11/laravel_packt/assets/78479210/7d7b30c0-32e2-48d6-8ae7-0e90fa317793)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
